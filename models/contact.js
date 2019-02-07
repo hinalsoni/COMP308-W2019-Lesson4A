@@ -10,5 +10,4 @@ let contactSchema = mongoose.Schema({
     collection: "favouriteThing"
 });
 
-module.expor
-ts = mongoose.model('hinal', contactSchema);
+module.exports = mongoose.model('hinal', contactSchema);
