@@ -11,7 +11,7 @@ router.get('/about', (req, res, next) => {
 });
 
 router.get('/contact', (req, res, next) => {
-  res.render('index', { title: 'Contact' });
+  res.render('index', { title: 'Favourite Things' });
 });
 
 router.get('/products', (req, res, next) => {
